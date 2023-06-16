@@ -790,16 +790,13 @@ footer {
 .svg-accept {
 }
 
-.checkbox-modal:checked + .checkbox-modal-span {
-  background-color: var(--active-color);
-  border: none;
-  fill: var(--button-color);
-}
-
 .pp-link {
   color: var(--button-main-color);
 }
 
+input:checked .checkbox-modal-span {
+  background-color: #404bbf;
+}
 .button-submit {
   display: block;
   margin: 0 auto;
@@ -820,4 +817,10 @@ footer {
 
 .button-submit:is(:hover, :focus) {
   background-color: var(--active-color);
+}
+
+.checkbox-modal:checked + .checkbox-modal-label > .checkbox-modal-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
