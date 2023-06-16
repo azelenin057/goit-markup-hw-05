@@ -685,3 +685,13 @@ footer {
   visibility: hidden;
   pointer-events: none;
 }
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  padding-top: 72px;
+}
