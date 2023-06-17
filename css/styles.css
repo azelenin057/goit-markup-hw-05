@@ -639,6 +639,8 @@ footer {
   display: flex;
   gap: 24px;
 }
+.footer-sub-label {
+}
 
 .footer-email-input {
   width: 264px;
@@ -647,7 +649,7 @@ footer {
   border: 1px solid #ffffff;
   border-radius: 4px;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
